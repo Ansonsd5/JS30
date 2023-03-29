@@ -1,4 +1,25 @@
 canvas{
    border: 1px solid;
+   /* position: absolute; */
+   margin-left: 20px;
+   margin-right: 20px;
+   min-width: 200px;
+   min-height: 200px;
+   max-height: 700px;
  
+
+}
+
+.container{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.btn-wrapper{
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   gap: 1rem
+   ;
 }

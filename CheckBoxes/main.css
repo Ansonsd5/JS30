@@ -1,0 +1,55 @@
+*,
+::before,
+::after{
+    box-sizing: border-box;
+}
+html{
+    height: 100vh;
+    background: linear-gradient(305deg, #b46e6e, transparent);
+}
+
+.main-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+
+.main-container> div{
+    border-bottom: 1px solid;
+    font-size: 14px;
+}
+
+.main-container> div:last-child{
+    border-bottom: none;
+}
+
+p::before{
+    content: "";
+    position: absolute;
+    border-left: 1px solid;
+    height: 44px;
+    margin-top: -14px;
+    margin-left: -18px;
+}
+
+
+
+.inbox{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(193, 216, 216);   
+}
+
+.inbox> p{
+    padding: 0px 1rem;
+}
+
+input:checked + p{
+    text-decoration: line-through;
+}
+
+
