@@ -1,0 +1,49 @@
+html{
+    height: auto;
+    width: 100%;
+    background: beige; 
+    margin: 0px;
+    position: relative;
+}
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title{
+    font-size: x-large;
+    margin-top: 5%;
+
+}
+
+.title-text-style{
+    background: linear-gradient(0deg, #dfc0e869, transparent);
+    padding: 1rem;
+    border-bottom-left-radius: 219%;
+    border-bottom-right-radius: 404%;
+    border-top-right-radius: 259%;
+    border-top-left-radius: 484%;
+}
+
+.how-styles{
+    animation: forwards red;
+}
+
+.main-section{
+margin: 5%;
+}
+
+.answer{
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    opacity: 0;
+    background: linear-gradient(178deg, #21f05b, #e290357a);
+    background-color: grey;
+    padding: 1rem;
+}
+
+.how-styles{
+    color: #0a62fa;
+    padding: 0.5rem;
+}
