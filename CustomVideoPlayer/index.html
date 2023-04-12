@@ -10,21 +10,12 @@
     <div class="main-container">
         <div class="video-player">
             <div class="player">
-                <video src="#href">HEllo</video>
+                <video src="#href" class="video">HEllo</video>
             </div>
             <div class="controls">
-                <div class="progress-conatiner">
-                    <div class="progress">
-                    <div class="progress-filler"></div>
-                    </div>
-                </div>
-                <div class="btn-controls">
-                    <button class="pause-play-btn"> > </button>
-                    <input type="range" min="0" max="1" step="0.05" class="steper-volume">
-                    <input type="range" min="0.5" max="2" step="0.1" class="steper-duration">
-                    <button data-skip="-10" class="back-10-sec">-10s</button>
-                    <button data-skip="25" class="forward-25-sec">25s</button>
-                </div>
+            <button class="play-pause">></button>
+            <input type="range" step="1" min="0" max="100" class="progress">
+                
             </div>
         </div>
         

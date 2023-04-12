@@ -1,0 +1,48 @@
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url(./assets/background_img.jpeg);
+    background-size: cover;
+   
+}
+
+
+li,input{
+    all: unset;
+}
+
+body{
+    margin: 0px !important;
+}
+
+
+
+
+.page-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20rem;
+    height: auto;
+    background-color: #CA906A;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+p{
+    font-weight: 800;
+}
+
+.add-btn, .user-input{
+    background-color: #cccccc;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+
+

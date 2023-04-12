@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 25%;
 }
 
 video{
@@ -11,45 +12,10 @@ video{
     
 }
 
-button{
-    font-size: 14px;
-}
-.video-player{
-    padding: 0.5rem;
-    border: 2px #cccccc solid;
-    position: relative;
-}
-
-.btn-controls{
-    
-}
-
-.progress-conatiner{
-    width: 100%;
-    background: rgb(63, 63, 63);
-    height: 0.5rem;
-    margin-bottom: 4px;
-}
-
 .progress{
-    background: rgba(20, 241, 57, 0.8);
-    width: 50%;
     height: 0.5rem;
-   
+    width: max-content;
 }
-
-.progress-filler{
-    background-color: blue;
-    width: 50%;
-}
-
-
-.btn-controls{
-    display: flex;
-    align-items: center;
-}
-
 .controls{
-    bottom: 14px;
-    position:absolute;
+    
 }
