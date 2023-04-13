@@ -1,16 +1,18 @@
-const addBtn = document.querySelector(".add-btn");
-const userInput = document.querySelector("#userInput");
-const form = document.querySelector("form")
-
+const addItems = document.querySelector(".add-items");
+const itemList = document.querySelector(".plates");
 const items =[];
 
-
-form.addEventListener("submit",itemHandler);
-
-function itemHandler(e){
-   items.push(userInput.value);
-   console.log(items);
-   e.preventDefault()
-   
+function addItem(e) {
+   e.preventDefault();
+   const text = (this.querySelector('[name=item')).value;
+   const item = {
+      text,
+      done : false
+   }
+   items.push(item);
+   this.reset();
+   console.table(items);
 }
+
+addItems.addEventListener("submit", addItem);
 
